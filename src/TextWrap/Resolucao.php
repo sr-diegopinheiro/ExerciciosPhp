@@ -1,17 +1,31 @@
 <?php
 
-/*
-Chuva / Galoá Ciências
-Desafio backend para vaga de estágio
-Candidato: Diego Paixão Pinheiro
+namespace Galoa\ExerciciosPhp\TextWrap;
 
-Código desenvolvido segundo as orientações contidas em:
-<https://github.com/galoa/ExerciciosPhp/blob/master/src/TextWrap/TextWrapInterface.php>
-*/
+/**
+ * Implemente sua resolução nessa classe.
+ *
+ * Depois disso:
+ * - Crie um PR no github com seu código
+ * - Veja o resultado da correção automática do seu código
+ * - Commit até os testes passarem
+ * - Passou tudo, melhore a cobertura dos testes
+ * - Ficou satisfeito, envie seu exercício para a gente! <3
+ *
+ * Boa sorte :D
+ */
+class Resolucao implements TextWrapInterface {
 
-function textWrap(string $text, int $length): array{
-
-  //variável contadora de palavras percorrida
+  /**
+   * {@inheritdoc}
+   *
+   * Apague o conteúdo do método abaixo e escreva sua própria implementação,
+   * nós colocamos esse mock para poder rodar a análise de cobertura dos
+   * testes unitários.
+   */
+  
+  public function textWrap(string $text, int $length): array {
+    //variável contadora de palavras percorrida
   $i = 0; 
   //vetor $array que será retornado como resultado final
   $array = array(); 
@@ -88,4 +102,5 @@ function textWrap(string $text, int $length): array{
 
   //retorna o array com o resultado
   return $array;
+
 }
