@@ -26,15 +26,15 @@ class Resolucao implements TextWrapInterface {
   
   public function textWrap(string $text, int $length): array {
     //variável contadora de palavras percorrida
-  $i = 0; 
-  //vetor $array que será retornado como resultado final
-  $array = array(); 
+    $i = 0; 
+    //vetor $array que será retornado como resultado final
+    $array = array(); 
 
-  //Copia as palavras contidas na string $text para o vetor $words
-  $words = explode(" ", $text);
+    //Copia as palavras contidas na string $text para o vetor $words
+    $words = explode(" ", $text);
 
-  //ENQUANTO existir palavras não tratadas, pecorre $words evetuando as devidas operações
-  while ($i < count($words)){
+    //ENQUANTO existir palavras não tratadas, pecorre $words evetuando as devidas operações
+    while ($i < count($words)){
 
     // IF a palavra for maior do que o limete estabelecido
     // ELSE a palavra não for maior do que o limete estabelecido
