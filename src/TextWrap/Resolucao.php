@@ -99,8 +99,8 @@ class Resolucao implements TextWrapInterface {
     }   
 
   }
-
-  //retorna o array com o resultado
+    
+  //Retorna o array com o resultado
   return $array;
 
 }
